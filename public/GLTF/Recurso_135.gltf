@@ -1,0 +1,232 @@
+{
+    "asset": {
+        "copyright": "2024 (c) Adobe Inc.",
+        "generator": "Adobe Substance 3D Stager - 3b65cae5d66550310f3fa94441098965a88f7a29",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 8069,
+            "type": "VEC3",
+            "max": [
+                1.0419801473617554,
+                1.0373437404632569,
+                1.3508182764053345
+            ],
+            "min": [
+                -1.1416311264038087,
+                -0.9615260362625122,
+                -1.2657411098480225
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 8069,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 8069,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 8069,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5125,
+            "count": 41076,
+            "type": "SCALAR",
+            "max": [
+                8068.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 96828,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 96828,
+            "byteLength": 96828,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 193656,
+            "byteLength": 129104,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 322760,
+            "byteLength": 64552,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 387312,
+            "byteLength": 164304,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 551616,
+            "uri": "Recurso_135_binary.bin"
+        }
+    ],
+    "images": [
+        {
+            "name": "base_color_image_texture",
+            "uri": "Recurso_135_images/base_color_image_texture.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "ambient_occlusion_image_texture_sampler",
+            "uri": "Recurso_135_images/ambient_occlusion_image_texture_sampler.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "normal_image_texture",
+            "uri": "Recurso_135_images/normal_image_texture.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "normalTexture": {
+                "index": 2
+            },
+            "occlusionTexture": {
+                "index": 1
+            },
+            "name": "White Silicon Glossy 2",
+            "doubleSided": true,
+            "extensions": {
+                "KHR_materials_specular": {
+                    "specularFactor": 0.9411764740943908
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "icons8_abstract_composition_with_shapes",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TANGENT": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "working_cam_n3d"
+        },
+        {
+            "children": [
+                2
+            ],
+            "translation": [
+                -0.05002700537443161,
+                -0.044904518872499469,
+                -0.1209205761551857
+            ],
+            "rotation": [
+                0.0,
+                0.8591063618659973,
+                0.0,
+                0.5117971301078796
+            ],
+            "scale": [
+                1.0,
+                0.9999997615814209,
+                1.0
+            ],
+            "name": "Recurso_129"
+        },
+        {
+            "translation": [
+                -0.05957500636577606,
+                1.0138816833496094,
+                0.07805513590574265
+            ],
+            "rotation": [
+                0.09872773289680481,
+                0.9936575293540955,
+                -0.052480991929769519,
+                0.011972770094871521
+            ],
+            "scale": [
+                0.9721514582633972,
+                0.9721516966819763,
+                0.9721522927284241
+            ],
+            "mesh": 0,
+            "name": "icons8_abstract_composition_with_shapes"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "base_color_image_texture",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "ambient_occlusion_image_texture_sampler",
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "name": "normal_image_texture",
+            "sampler": 0,
+            "source": 2
+        }
+    ],
+    "scene": 0,
+    "extensionsUsed": [
+        "KHR_materials_specular"
+    ]
+}
